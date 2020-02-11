@@ -10,7 +10,11 @@
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <custom-input></custom-input>
+    <custom-input id="cusInput"></custom-input>
+    <script>
+      const customInput = document.getElementById('cusInput')
+      customInput.addEventListener('value', (event) => console.log(event.detail))
+    </script>
     <!-- built files will be auto injected -->
   </body>
 </html>
