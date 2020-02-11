@@ -1,8 +1,7 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import wrap from '@vue/web-component-wrapper';
+import InputComponent from "./components/InputComponent";
 
-Vue.config.productionTip = false
+const customInput = wrap(Vue, InputComponent);
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+customElements.define('custom-input', customInput);

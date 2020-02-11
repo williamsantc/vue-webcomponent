@@ -10,10 +10,21 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compiles WebComponent
 ```
 npm run build
 ```
+
+### Run 
+```
+npm run build
+```
+
+Access:
+```
+http://localhost:8080/
+```
+
 
 ### Lints and fixes files
 ```
