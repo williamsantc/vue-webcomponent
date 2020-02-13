@@ -1,6 +1,6 @@
 # vue-webcomponent
 
-Proyecto ejemplo de webcomponents com Vue.js
+Proyecto ejemplo de webcomponents com Vue.js. Leer doc: [Vue Web-components](https://cli.vuejs.org/guide/build-targets.html#web-component)
 
 ## Project setup
 ```
