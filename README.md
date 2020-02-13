@@ -1,6 +1,6 @@
 # vue-webcomponent
 
-Leer doc: [@vue/web-component-wrapper](https://www.npmjs.com/package/@vue/web-component-wrapper)
+Proyecto ejemplo de webcomponents com Vue.js
 
 ## Project setup
 ```
@@ -19,12 +19,12 @@ npm run build
 
 ### Run 
 ```
-npm run build
+npm run start
 ```
 
 Access:
 ```
-http://localhost:8080/
+http://localhost:8080/demo.html
 ```
 
 ### Playground

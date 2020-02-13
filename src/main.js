@@ -1,7 +1,6 @@
-import Vue from 'vue';
-import wrap from '@vue/web-component-wrapper';
-import InputComponent from "./components/InputComponent";
+import InputComponent from './components/InputComponent';
+import wrap from "@vue/web-component-wrapper";
+import Vue from "vue";
 
 const customInput = wrap(Vue, InputComponent);
-
 customElements.define('custom-input', customInput);

@@ -4,12 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target wc --name custom-input ./src/main.js",
+    "build": "vue-cli-service build --target wc --name custom-input ./src/components/InputComponent.vue",
     "start": "cd dist && serve -p 8080",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@vue/web-component-wrapper": "^1.2.0",
     "core-js": "^3.6.4",
     "vue": "^2.6.11"
   },
